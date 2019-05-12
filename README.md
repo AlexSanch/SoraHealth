@@ -79,19 +79,18 @@ Step 2. Follow How to Add Seeed boards to Arduino IDE to add Wio_LTE into arduin
 
 http://wiki.seeedstudio.com/Seeed_Arduino_Boards/
 
-<img src="https://github.com/SeeedDocument/Wio_LTE/raw/master/img/zadig.png" width="500">
+<img src="https://i.ibb.co/N9zzvh5/1.png" width="500">
 
 Step 3. Download the Wio_LTE Library from Github.
 
 https://github.com/Seeed-Studio/Wio_LTE_Arduino_Library
 
-<img src="https://i.ibb.co/N9zzvh5/1.png" width="500">
+<img src="https://i.ibb.co/CPLx8q5/2.png" width="500">
 
 Step 4. Refer How to install library to install library for Arduino.
 
 http://wiki.seeedstudio.com/How_to_install_Arduino_Library/
 
-<img src="https://i.ibb.co/CPLx8q5/2.png" width="500">
 
 ## Soracom Console:
 
