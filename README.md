@@ -37,10 +37,10 @@ Software:
 
 The module is so simple and easy to install, that we just have to connect everything to the WIO and that's it! Here's an image of how it looks when it's ready!
 
-<img src="https://i.ibb.co/njvg20f/3.jpg" width="500">
+<img src="https://i.ibb.co/njvg20f/3.jpg" width="800">
 
 ## PC Configuration:
-(Todos estos pasos son directamente estan en la guia oficial http://wiki.seeedstudio.com/Wio_LTE_Cat.1/#getting-started)
+(All these steps are directly in the official guide http://wiki.seeedstudio.com/Wio_LTE_Cat.1/#getting-started)
 
 - Install USB driver:
 
