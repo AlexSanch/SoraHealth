@@ -112,9 +112,8 @@ We create an interruption by falling edge.
     attachInterrupt(BUTTON_PIN, change_state, FALLING);
     
 Through this command we send our location in real time once we press the button, this information will serve us later in AWS to send it as a google maps link.
-    
-    sprintf(data, "{\"lat\":\"%d\",\"lon\":\"%d\"}",gnss.latitude,gnss.longitude);
 
+    sprintf(data, "{\"lat\":\"%d\",\"lon\":\"%d\"}",gnss.latitude,gnss.longitude);
 
 ## Soracom Console:
 
