@@ -35,6 +35,9 @@ Software:
 
 ## Setup Wio Module:
 
+The module is so simple and easy to install, that we just have to connect everything to the WIO and that's it! Here's an image of how it looks when it's ready!
+
+<img src="https://i.ibb.co/njvg20f/3.jpg" width="500">
 
 ## PC Configuration:
 (Todos estos pasos son directamente estan en la guia oficial http://wiki.seeedstudio.com/Wio_LTE_Cat.1/#getting-started)
@@ -55,39 +58,37 @@ Mac OS X and Chromebook Users: The board will just plug in and work, without dri
 
 For windows users:
 
-Step 1. Press and hold BOOT button and connect to computer you will see STM32 Device in DFU Mode at device manager as below.
+Press and hold BOOT button and connect to computer you will see STM32 Device in DFU Mode at device manager as below.
 
 <img src="https://github.com/SeeedDocument/Wio_LTE/raw/master/img/before_driver_installation.png" width="500">
 
-Step 2. This says that you need to use zadig_xx.exe to change DFU driver from STTub30 to WinUSB as below. If we can't see any info on the Zadig, please click Options→ List All Devices, then select STM32 Virtual COM Ports.
+- This says that you need to use zadig_xx.exe to change DFU driver from STTub30 to WinUSB as below. If we can't see any info on the Zadig, please click Options→ List All Devices, then select STM32 Virtual COM Ports.
 
 <img src="https://github.com/SeeedDocument/Wio_LTE/raw/master/img/zadig.png" width="500">
 
-Step 3. You will see the "STMicroelectronics Virtual COM Port" on device manager as below.
+- You will see the "STMicroelectronics Virtual COM Port" on device manager as below.
 
 <img src="https://github.com/SeeedDocument/Wio_LTE/raw/master/img/after_driver_installation.png" width="500">
 
 ## Arduino IDE Setup:
 
-1. Software Configuration
-
-Step 1. Install Arduino IDE, recommand IDE version upon 1.8.0.
+Install Arduino IDE, recommand IDE version upon 1.8.0.
 
 https://www.arduino.cc/en/Main/Software
 
-Step 2. Follow How to Add Seeed boards to Arduino IDE to add Wio_LTE into arduino board manager.
+Follow How to Add Seeed boards to Arduino IDE to add Wio_LTE into arduino board manager.
 
 http://wiki.seeedstudio.com/Seeed_Arduino_Boards/
 
 <img src="https://i.ibb.co/N9zzvh5/1.png" width="500">
 
-Step 3. Download the Wio_LTE Library from Github.
+Download the Wio_LTE Library from Github.
 
 https://github.com/Seeed-Studio/Wio_LTE_Arduino_Library
 
 <img src="https://i.ibb.co/CPLx8q5/2.png" width="500">
 
-Step 4. Refer How to install library to install library for Arduino.
+Refer How to install library to install library for Arduino.
 
 http://wiki.seeedstudio.com/How_to_install_Arduino_Library/
 
