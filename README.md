@@ -1,6 +1,6 @@
 # SoraHealth
 
-<img src="https://i.ibb.co/JycKWz8/Sorahealth.png" width="800">
+<img src="https://i.ibb.co/JycKWz8/Sorahealth.png" width="400">
 
 Measuring blood sugar is not the only way in which a person can detect that it has this high level, there are times when a person detects symptoms in themselves that are not normal and these can trigger a more serious problem, such as a fainting or death.
 
