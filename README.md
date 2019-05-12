@@ -94,6 +94,27 @@ Refer How to install library to install library for Arduino.
 
 http://wiki.seeedstudio.com/How_to_install_Arduino_Library/
 
+## Arduino Code:
+
+The Arduino code is in the Arduino Code folder, however the most important parts are the following.
+
+This is the Pin that accepts interruptions.
+
+    #define BUTTON_PIN  (WIOLTE_A4)
+    
+Volatile variables to control the interruption of the button.
+
+    volatile bool StateChanged = false;
+    volatile bool State = false;
+
+We create an interruption by falling edge.
+
+    attachInterrupt(BUTTON_PIN, change_state, FALLING);
+    
+Through this command we send our location in real time once we press the button, this information will serve us later in AWS to send it as a google maps link.
+    
+    sprintf(data, "{\"lat\":\"%d\",\"lon\":\"%d\"}",gnss.latitude,gnss.longitude);
+
 
 ## Soracom Console:
 
