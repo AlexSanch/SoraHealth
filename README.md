@@ -196,7 +196,6 @@ Note: this is SQL language.
 <img src = "https://i.ibb.co/wJ8wCMw/18.png" width = "800">
 
 - The lambda should look like this, copy and paste the function below to your lambda. 
-* [Lambda Function] (# lambda-function)
 
 <img src = "https://i.ibb.co/W2NdP72/19.png" width = "800">
 
@@ -251,4 +250,34 @@ Note: this is SQL language.
 
 ## The Final Product:
 
+- Now we assembled everything in a final cas, for this product, I decided to use an old cassette's box.
 
+<img src = "https://i.ibb.co/8cYnrtw/IMG-20190513-013911.jpg" width = "800">
+
+- Assemble inside the case, the antennas and the button.
+
+<img src = "https://i.ibb.co/X89vnxJ/IMG-20190513-013942.jpg" width = "800">
+
+- We put the Grove cable.
+
+<img src = "https://i.ibb.co/brb0FYp/IMG-20190513-014029.jpg" width = "800">
+
+-Located the Lithium Battery.
+
+<img src = "https://i.ibb.co/JvZ7gfr/IMG-20190513-014045.jpg" width = "800">
+
+- To ensure that the box could press the button, place the back of a pen inside the case, melting it a bit so that it fits perfectly.
+
+<img src = "https://i.ibb.co/KDQRS2j/IMG-20190513-013208.jpg" width = "400"> <img src = "https://i.ibb.co/28XmxML/IMG- 20190513-013214.jpg "width =" 400 ">
+
+- A hole was made on the side so that the charging cable enters correctly.
+
+<img src = "https://i.ibb.co/94B1XCj/IMG-20190513-013252.jpg" width = "800">
+
+- This is how the final product looks with the cable so that it can be easily loaded.
+
+<img src = "https://i.ibb.co/6XTcq32/IMG-20190513-013324.jpg" width = "800">
+
+### Demo Time:
+
+(Insertar Video XP)
