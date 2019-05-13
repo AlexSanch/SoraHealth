@@ -250,7 +250,7 @@ Note: this is SQL language.
 
 ## The Final Product:
 
-- Now we assembled everything in a final cas, for this product, I decided to use an old cassette's box.
+- Now we assembled everything in a final case, for this product, I decided to use an old cassette's box.
 
 <img src = "https://i.ibb.co/8cYnrtw/IMG-20190513-013911.jpg" width = "800">
 
