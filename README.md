@@ -165,6 +165,87 @@ Note: it is important to clarify that the data will be sent to the Soracom platf
 
 <img src="https://i.ibb.co/P6Vrqk6/12.png" width="800">
 
+## AWS Setup:
+
+- In the "Act" tab we create a new rule.
+
+<img src = "https://i.ibb.co/K2xC927/13.png" width = "800">
+
+- We put any name and in the "Rule query statement" we put the following.
+
+Note: this is SQL language.
+
+    SELECT payloads.lat as lat, payloads.lon as lon FROM 'SH'
+
+<img src="https://i.ibb.co/tPvXXXR/14.png" width="800">
+
+- We select "Add action".
+
+<img src = "https://i.ibb.co/4dkr0nY/15.png" width = "800">
+
+- We select Lambda. This is because we need to process the data received by Aws IoT.
+
+<img src = "https://i.ibb.co/X5xx3QL/16.png" width = "800">
+
+- We select "Create a new Lambda function".
+
+<img src = "https://i.ibb.co/MVwnMw7/17.png" width = "800">
+
+- Set the lambda as shown in the next screen.
+
+<img src = "https://i.ibb.co/wJ8wCMw/18.png" width = "800">
+
+- The lambda should look like this.
+
+<img src = "https://i.ibb.co/W2NdP72/19.png" width = "800">
+
+- We go on AWS to SNS, to create the notification system.
+
+<img src = "https://i.ibb.co/zJGTJJg/20.png" width = "800">
+
+- Once our notification system is created we will obtain our RNA for our Lambda function.
+
+<img src = "https://i.ibb.co/nDLKBr5/21.png" width = "800">
+
+- We select the option "Create subscription" and select one of the following notification options.
+
+<img src = "https://i.ibb.co/jbYt5DT/22.png" width = "800">
+
+
+### Lambda Function:
+    console.log('Loading function');
+    // Load the AWS SDK
+    var AWS = require("aws-sdk");
+
+    // Set up the code to call when the Lambda function is invoked
+    exports.handler = (event, context, callback) => {
+    // Load the message passed into the Lambda function into a JSON object 
+    var eventText = JSON.parse(JSON.stringify(event, null, 2));
+
+
+    // Log a message to the console; you can view this text in the Monitoring tab in the Lambda console or in the CloudWatch Logs console
+
+    // Create a string, extracting the click type and serial number from the message sent by the AWS IoT button
+
+    // Write the string to the console
+
+
+    var latitude=parseInt(eventText.lat)
+    var longitude=parseInt(eventText.lon)
+
+
+    // Create an SNS object
+    var sns = new AWS.SNS();
+
+    console.log("Received event:"+"https://www.google.com.mx/maps/@"+ eventText.lat +","+eventText.lon);
+
+    var params = {
+    Message: ("https://www.google.com.mx/maps/@"+ eventText.lat +","+eventText.lon+",18.25z"),
+    TopicArn: "arn:aws:sns:XXXXXXXXXXXXXX:XXXXXXXXXXXXXX:SHNotification"
+    };
+    sns.publish(params, context.done);
+
+    };
 
 
 ## The Final Product:
