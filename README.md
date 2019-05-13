@@ -64,15 +64,15 @@ For windows users:
 
 Press and hold BOOT button and connect to computer you will see STM32 Device in DFU Mode at device manager as below.
 
-<img src="https://github.com/SeeedDocument/Wio_LTE/raw/master/img/before_driver_installation.png" width="500">
+<img src="https://github.com/SeeedDocument/Wio_LTE/raw/master/img/before_driver_installation.png" width="800">
 
 - This says that you need to use zadig_xx.exe to change DFU driver from STTub30 to WinUSB as below. If we can't see any info on the Zadig, please click Options→ List All Devices, then select STM32 Virtual COM Ports.
 
-<img src="https://github.com/SeeedDocument/Wio_LTE/raw/master/img/zadig.png" width="500">
+<img src="https://github.com/SeeedDocument/Wio_LTE/raw/master/img/zadig.png" width="800">
 
 - You will see the "STMicroelectronics Virtual COM Port" on device manager as below.
 
-<img src="https://github.com/SeeedDocument/Wio_LTE/raw/master/img/after_driver_installation.png" width="500">
+<img src="https://github.com/SeeedDocument/Wio_LTE/raw/master/img/after_driver_installation.png" width="800">
 
 ## Arduino IDE Setup:
 
@@ -84,13 +84,13 @@ Follow How to Add Seeed boards to Arduino IDE to add Wio_LTE into arduino board 
 
 http://wiki.seeedstudio.com/Seeed_Arduino_Boards/
 
-<img src="https://i.ibb.co/N9zzvh5/1.png" width="500">
+<img src="https://i.ibb.co/N9zzvh5/1.png" width="800">
 
 Download the Wio_LTE Library from Github.
 
 https://github.com/Seeed-Studio/Wio_LTE_Arduino_Library
 
-<img src="https://i.ibb.co/CPLx8q5/2.png" width="500">
+<img src="https://i.ibb.co/CPLx8q5/2.png" width="800">
 
 Refer How to install library to install library for Arduino.
 
@@ -123,27 +123,27 @@ Note: it is important to clarify that the data will be sent to the Soracom platf
 
 - We create a new user:
 
-<img src = "https://i.ibb.co/jhBJLCK/3.png" width = "500">
+<img src = "https://i.ibb.co/jhBJLCK/3.png" width = "800">
 
 - We put whatever name it is and continue to the permissions tab
 
-<img src="https://i.ibb.co/XFdNNJ8/4.png" width="500">
+<img src="https://i.ibb.co/XFdNNJ8/4.png" width="800">
 
 - We attach the "AWSIoTFullAccess" Policy.
 
-<img src="https://i.ibb.co/WVPzdbW/5.png" width="500">
+<img src="https://i.ibb.co/WVPzdbW/5.png" width="800">
 
 - Press Next.
 
-<img src="https://i.ibb.co/RTKbDC4/6.png" width="500">
+<img src="https://i.ibb.co/RTKbDC4/6.png" width="800">
 
 - Press "Create User"
 
-<img src="https://i.ibb.co/f2bsd06/7.png" width="500">
+<img src="https://i.ibb.co/f2bsd06/7.png" width="800">
 
 - Save your "Access key ID" and "Secret access key" for the Soracom Console.
 
-<img src="https://i.ibb.co/tsHcgxv/8.png" width="500">
+<img src="https://i.ibb.co/tsHcgxv/8.png" width="800">
 
 ## AWS IoT Setup:
 
@@ -153,17 +153,17 @@ Note: it is important to clarify that the data will be sent to the Soracom platf
 
 - In this option we will see our endpoint, save it for the configuration of Soracom Console.
 
-<img src="https://i.ibb.co/1My1Yq7/10.png" width="500">
+<img src="https://i.ibb.co/1My1Yq7/10.png" width="800">
 
 ## Soracom Console:
 
 - Go to "Group" tab.
 
-<img src="https://i.ibb.co/C9Nqxb8/11.png" width="500">
+<img src="https://i.ibb.co/C9Nqxb8/11.png" width="800">
 
 - Go to "SORACOM Funnel" and setup all your credentials, your Endpoint url and your topic inside the url.
 
-<img src="https://i.ibb.co/P6Vrqk6/12.png" width="500">
+<img src="https://i.ibb.co/P6Vrqk6/12.png" width="800">
 
 
 
