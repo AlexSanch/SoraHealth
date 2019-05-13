@@ -268,11 +268,11 @@ Note: this is SQL language.
 
 - To ensure that the box could press the button, place the back of a pen inside the case, melting it a bit so that it fits perfectly.
 
-<img src = "https://i.ibb.co/KDQRS2j/IMG-20190513-013208.jpg" width = "400"> <img src = "https://i.ibb.co/28XmxML/IMG- 20190513-013214.jpg "width =" 400 ">
+<img src = "https://i.ibb.co/KDQRS2j/IMG-20190513-013208.jpg" width = "400"> <img src = "https://i.ibb.co/28XmxML/IMG-20190513-013214.jpg "width =" 400 ">
 
 - A hole was made on the side so that the charging cable enters correctly.
 
-<img src = "https://i.ibb.co/94B1XCj/IMG-20190513-013252.jpg" width = "800">
+<img src = "https://i.ibb.co/LQzXgkp/IMG-20190513-013252.jpg" width = "800">
 
 - This is how the final product looks with the cable so that it can be easily loaded.
 
