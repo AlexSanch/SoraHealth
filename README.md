@@ -15,8 +15,10 @@ For this problem the answer is simple, when there is nothing else to do, asking 
 * [Materials](#materials)
 * [Setup Wio Module](#setup-wio-module)
 * [Arduino IDE Setup](#arduino-ide-setup)
+* [AWS IAM Setup](#aws-iam-setup)
+* [AWS IoT Setup](#aws-iot-setup)
 * [Soracom Console](#soracom-console)
-* [AWS Setup](#aws-setup)
+* [AWS Setup](#aws-iam-setup)
 * [The Final Product](#the-final-product)
 
 ## Materials:
@@ -115,11 +117,53 @@ Through this command we send our location in real time once we press the button,
 
     sprintf(data, "{\"lat\":\"%d\",\"lon\":\"%d\"}",gnss.latitude,gnss.longitude);
 
+## AWS IAM Setup:
+
+Note: it is important to clarify that the data will be sent to the Soracom platform, however the AWS credentials are necessary to configure it correctly and the AWS IoT endpoint url, so first we will show how to configure the AWS IAM credentials, after Soracom Console and at the end the rest of AWS services.
+
+- We create a new user:
+
+<img src = "https://i.ibb.co/jhBJLCK/3.png" width = "500">
+
+- We put whatever name it is and continue to the permissions tab
+
+<img src="https://i.ibb.co/XFdNNJ8/4.png" width="500">
+
+- We attach the "AWSIoTFullAccess" Policy.
+
+<img src="https://i.ibb.co/WVPzdbW/5.png" width="500">
+
+- Press Next.
+
+<img src="https://i.ibb.co/RTKbDC4/6.png" width="500">
+
+- Press "Create User"
+
+<img src="https://i.ibb.co/f2bsd06/7.png" width="500">
+
+- Save your "Access key ID" and "Secret access key" for the Soracom Console.
+
+<img src="https://i.ibb.co/tsHcgxv/8.png" width="500">
+
+## AWS IoT Setup:
+
+- In AWS IoT Core, we go to the "Settings" tab.
+
+<img src = "https://i.ibb.co/ZW1mTLj/9.png" width = "200">
+
+- In this option we will see our endpoint, save it for the configuration of Soracom Console.
+
+<img src="https://i.ibb.co/1My1Yq7/10.png" width="500">
+
 ## Soracom Console:
 
+- Go to "Group" tab.
 
+<img src="https://i.ibb.co/C9Nqxb8/11.png" width="500">
 
-## AWS Setup:
+- Go to "SORACOM Funnel" and setup all your credentials, your Endpoint url and your topic inside the url.
+
+<img src="https://i.ibb.co/P6Vrqk6/12.png" width="500">
 
 
 
