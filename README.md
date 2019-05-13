@@ -195,7 +195,7 @@ Note: this is SQL language.
 
 <img src = "https://i.ibb.co/wJ8wCMw/18.png" width = "800">
 
-- The lambda should look like this.
+- The lambda should look like this, copy and paste the function below to your lambda. * [Lambda Function] (# lambda-function)
 
 <img src = "https://i.ibb.co/W2NdP72/19.png" width = "800">
 
