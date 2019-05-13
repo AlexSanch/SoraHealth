@@ -262,13 +262,13 @@ Note: this is SQL language.
 
 <img src = "https://i.ibb.co/brb0FYp/IMG-20190513-014029.jpg" width = "800">
 
--Located the Lithium Battery.
+- We put  the Lithium Battery.
 
-<img src = "https://i.ibb.co/JvZ7gfr/IMG-20190513-014045.jpg" width = "800">
+<img src = "https://i.ibb.co/W2147vK/IMG-20190513-014045.jpg" width = "800">
 
 - To ensure that the box could press the button, place the back of a pen inside the case, melting it a bit so that it fits perfectly.
 
-<img src = "https://i.ibb.co/KDQRS2j/IMG-20190513-013208.jpg" width = "400"><img src = "https://i.ibb.co/28XmxML/IMG-20190513-013214.jpg" width ="400">
+<img src = "https://i.ibb.co/PDs04xH/IMG-20190513-013208.jpg" width = "400"><img src = "https://i.ibb.co/1TjWHBY/IMG-20190513-013214.jpg" width ="400">
 
 - A hole was made on the side so that the charging cable enters correctly.
 
