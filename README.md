@@ -281,6 +281,7 @@ Note: this is SQL language.
 ### Demo Time:
 
 Video: Click on the image.
+
 [![SoraHealth - Demo](https://i.ibb.co/JycKWz8/Sorahealth.png)](https://www.youtube.com/watch?v=6lBX7eOJBWM&feature=youtu.be)
 
 Sorry github does not allow embed videos.
