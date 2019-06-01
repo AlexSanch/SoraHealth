@@ -2,13 +2,13 @@
 
 <img src="https://i.ibb.co/JycKWz8/Sorahealth.png" width="400">
 
-Measuring blood sugar is not the only way in which a person can detect that it has this high level, there are times when a person detects symptoms in themselves that are not normal and these can trigger a more serious problem, such as a fainting or death.
+Measuring blood sugar is not the only way in which a person can detect that it has this high level, there are times when a person detects symptoms in themselves that are not normal and these can trigger a more serious problem, such as fainting or a stroke.
 
 If someone detects that the sugar level is high, the best thing to do is take medication to lower it, however this may be counterproductive in some cases, because these medications can lower the level of sugar so much that it could be mortal.
 
-If only there was an easier, more natural way of tracking that even outside your home, patients sometimes have relapses and periods when they need help fast when outside and even at home and even more so if they are elders.
+If only there was an easier, more natural way of tracking that even outside your home, patients that sometimes have relapses and periods when they need help fast. More so when they are outside, but even at home and in a greater degree if they are elders.
 
-For this problem the answer is simple, when there is nothing else to do, asking for help quickly is the best solution to the problem, so that's why I decided to create SoraHealth, a device with the ability to send a notification of help quickly with just pressing a button.
+For this problem the answer is simple. When there is nothing else to do, asking for help quickly is the best solution to the problem, so that's why I decided to create SoraHealth, a device with the ability to send a notification to get help quickly by just pressing a button.
 
 # Table of contents
 * [Introduction](#introduction)
